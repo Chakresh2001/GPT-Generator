@@ -84,7 +84,7 @@ function App() {
           ) : (
             <div style={{display:"flex", justifyContent:"center", alignItems:"center"}}>
             <div style={{border:"1px solid black", width:"600px", padding:"20px"}}>
-            <p>{Content}</p>
+            <p>{Content=="" ? "Your Output Will Be Here" : Content}</p>
             </div>
             </div>
           )
